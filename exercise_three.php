@@ -10,7 +10,7 @@ Input second number:<br>
 <button type="submit" =">Submit</button> <br><br>
 
 <?php
-//find gcd
+//find gcd please 
 if(isset($_GET['n1']) || isset($_GET['n2'])) {
     $a=$_GET['n1'];
     $b=$_GET['n2'];
