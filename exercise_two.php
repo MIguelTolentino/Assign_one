@@ -7,27 +7,29 @@ body{
 <body>
 
 <form action="" method="post">
+    CALCULATOR <br><br>
     <input type="text" name="n1" value="" placeholder="ENTER NUMBER"><br>
     <input type="text" name="n2" value="" placeholder="ENTER NUMBER"><br>
-    <input type="submit" name="a" value="ADD +">
-    <input type="submit" name="s" value="SUB -">
-    <input type="submit" name="d" value="DIV /">
-    <input type="submit" name="m" value="MUL *">
+    <input type="submit" name="a" value="+">
+    <input type="submit" name="s" value="-">
+    <input type="submit" name="d" value="/">
+    <input type="submit" name="m" value="*">
 </form>
 <?php
+//if statements
 if(isset($_POST['a']))
 {
     $n1 = $_POST['n1'];
     $n2 = $_POST['n2'];
-    $add = $n1+$n2;
-    echo "Addition Is".$add;
+    $a = $n1+$n2;
+    echo "Addition Is".$a;
 }
 if(isset($_POST['s']))
 {
     $n1 = $_POST['n1'];
     $n2 = $_POST['n2'];
     $s = $n1-$n2;
-    echo "Differene is ".$s;
+    echo "Difference is ".$s;
 }
 if(isset($_POST['m']))
 {

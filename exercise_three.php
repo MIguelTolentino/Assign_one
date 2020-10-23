@@ -3,14 +3,14 @@
 <body>
 <form action="exercise_three.php" method="get">
 GCD of two numbers <br>
-1st Number:<br> 
+Input first number:<br> 
 <input name="n1"><br>
-2nd Number:<br> 
+Input second number:<br> 
 <input name="n2"><br>
 <button type="submit" =">Submit</button> <br><br>
 
 <?php
-
+//find gcd
 if(isset($_GET['n1']) || isset($_GET['n2'])) {
     $a=$_GET['n1'];
     $b=$_GET['n2'];
