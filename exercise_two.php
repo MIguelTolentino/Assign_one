@@ -8,8 +8,8 @@ body{
 
 <form action="" method="post">
     CALCULATOR <br><br>
-    <input type="text" name="n1" value="" placeholder="ENTER NUMBER"><br>
-    <input type="text" name="n2" value="" placeholder="ENTER NUMBER"><br>
+    <input type="text" name="n1" value="" placeholder="Input first number"><br>
+    <input type="text" name="n2" value="" placeholder="Input second number"><br>
     <input type="submit" name="a" value="+">
     <input type="submit" name="s" value="-">
     <input type="submit" name="d" value="/">
